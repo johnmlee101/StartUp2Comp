@@ -88,11 +88,58 @@ a{
 	font-size: 5em;
 	width: 100%;
 	top: 200px;
-	text-align: center;
+	text-align: right;
 	height: auto;
 	font-family: Lato;
 	color: white;
 	-webkit-font-smoothing: antialiased;
+}
+.header-cont {
+	padding-right: 20px;
+}
+.idea-container {
+	position: absolute;
+	margin-top: 25px;
+	background: rgba(255,255,255,0.05);
+	min-height: 95%;
+	width: 50%;
+}
+.idea-header {
+	width: 100%;
+	text-align: left;
+}
+.idea-header div {
+	padding: 1em;
+}
+.idea-block {
+	min-height: 200px;
+	width: 100%;
+	border-radius: 10px;
+	background: #fff;
+	margin-bottom: 5px;
+}
+.idea-title {
+	display: block;
+	float: right;
+	font-size: 2em;
+	font-weight: 300;
+	text-align: right;
+	padding: 1em;
+	left: 20%;
+	max-width: 80%;
+}
+.idea-vote {
+	display: block;
+	float: left;
+	height: 100%;
+	width: 20%;
+	background: #ccc;
+}
+.idea-vote-up {
+
+}
+.idea-vote-down {
+	
 }
 .bodyText {
 	color: rgb(220,220,220);
